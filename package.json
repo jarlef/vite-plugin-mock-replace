@@ -1,0 +1,52 @@
+{
+  "name": "vite-plugin-mock-replace",
+  "version": "0.0.1",
+  "author": "jarlef",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarlef/vite-plugin-mock-replace"
+  },
+  "bugs": {
+    "url": "https://github.com/jarlef/vite-plugin-mock-replace/issues"
+  },
+  "homepage": "https://github.com/jarlef/vite-plugin-mock-replace/tree/main/#readme",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup",
+    "pretest": "yarn build",
+    "test": "vitest",
+    "prepack": "yarn build"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js",
+    "types": "./dist/index.d.ts"
+  },
+  "keywords": [
+    "vite",
+    "vitest",
+    "testing",
+    "mock",
+    "replace"
+  ],
+  "files": [
+    "README.md",
+    "src",
+    "dist"
+  ],
+  "peerDependencies": {
+    "vite": ">=5.0.0",
+    "vitest": ">=1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "vitest": "^1.3.1"
+  },
+  "packageManager": "yarn@4.1.0"
+}
