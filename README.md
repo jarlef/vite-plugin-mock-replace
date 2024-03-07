@@ -1,4 +1,4 @@
-# vite-plugin-preload
+# vite-plugin-mock-replace
 
 [![npm version](https://badge.fury.io/js/vite-plugin-mock-replace.svg)](https://badge.fury.io/js/vite-plugin-mock-replace)
 
